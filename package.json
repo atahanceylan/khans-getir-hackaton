@@ -1,0 +1,25 @@
+{
+  "name": "getir",
+  "version": "1.0.0",
+  "description": "dddasda",
+  "main": "getir.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atahanceylan/khans-getir-hackaton.git"
+  },
+  "keywords": [
+    "deneme"
+  ],
+  "author": "atahan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atahanceylan/khans-getir-hackaton/issues"
+  },
+  "homepage": "https://github.com/atahanceylan/khans-getir-hackaton#readme",
+  "dependencies": {
+    "mongodb": "^3.0.2"
+  }
+}
