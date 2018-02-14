@@ -4,8 +4,7 @@ var ObjectId = require('mongodb').ObjectID;
 
 var url = "mongodb://dbUser:dbPassword@ds155428.mlab.com:55428/getir-bitaksi-hackathon";
 
- 
-
+function getData(){
 MongoClient.connect(url, function(err, db) {
 
                 if (err) throw err;
@@ -79,3 +78,13 @@ MongoClient.connect(url, function(err, db) {
     db.close();                                                    
 
 });
+}
+getData();
+/*
+http.createServer(function (req, res) {
+  res.writeHead(200, {'Content-Type': 'text/html'});
+  var q = url.parse(req.url, true).query;
+  var txt = q.year + " " + q.month;
+  res.end(txt);
+}).listen(8080);
+*/
